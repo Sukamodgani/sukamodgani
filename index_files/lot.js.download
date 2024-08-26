@@ -11,9 +11,9 @@ $(document).ready( function () {
   
   function ifnotSaved() {
   
-  var v = prompt('Kinsay gwapo sa atong duha??')
+  var v = prompt('Unsay trabaho nimo??')
   
-  if (v == 'Matik kulot') {
+  if (v == 'Sukamod') {
       //
     localStorage.setItem('status', 'browserSaved')
   } else {
